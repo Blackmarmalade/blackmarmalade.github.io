@@ -93,7 +93,11 @@
           <section role="main">
             <div class="small-12 columns">
 
-            <h1 class="text-center">{{page.title}}</h1>
+            {% if page.title == "Black Marmalade Records" %}
+            <!-- do nothing -->
+             {% else %}
+              <h1 class="text-center">{{page.title}}</h1>
+            {% endif %}
             <br>
         
               {{ content }} 
