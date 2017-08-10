@@ -1,0 +1,141 @@
+body{
+	background-color: black;
+	color: white;
+	hr{
+		color: white;
+	}
+
+
+	
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 200;
+	color: white;
+	@media #{$medium-up} {
+	}
+	@media #{$large-up} {
+	}
+}
+
+.small{
+	font-size: 70%;
+}
+
+.big{
+	font-size: 250%;
+}
+
+.centered{
+	text-align: center;
+}
+
+//helper for font weight
+//Open+Sans:400,700,800|Raleway:400,200,700
+.font-light {
+	font-weight: 200;
+}
+.font-weight-normal {
+	font-weight: 400;
+}
+.font-bold {
+	font-weight: 700;
+}
+.font-heavy {
+	font-weight: 800;
+}
+
+//NAVIGATION
+/*#header{
+ margin-bottom: 40px;
+}*/
+
+.mainmenu {
+	.inline-list{
+     display: table;
+     margin: 0 auto;
+}
+	
+}
+.logo{
+	max-width: 150px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo:hover{
+	 opacity: 0.7;
+}
+
+.logosmall{
+	margin-top: -4px;
+	max-width: 90px;
+}
+.logosmall:hover{
+	 opacity: 0.7;
+}
+
+// GIFT
+.panel{
+	min-height:550px;
+}
+.gift{
+
+padding: 5px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+//INDEX
+
+.imgthumb{
+	
+}
+
+.orbit{
+    margin-bottom: 30px;
+}
+.imgblog{
+	margin-bottom: 10px;
+}
+
+// FOOTER
+.footer-bottom{
+	color: grey;
+	a{
+		color:grey;
+	}
+	i{
+		margin-right: 5px;
+	}
+	p{
+		font-size: 80%;
+	}
+}
+
+// 404
+
+.error{
+max-width: 500px;
+height: auto;
+margin-right: auto;
+margin-left: auto;
+color: white;
+word-break: break-all;
+}
+
+
+// POST
+.header{
+	width:100%;
+	margin-bottom: 30px;
+}
+
+.share{
+	margin-top: 50px;
+	text-align: center;
+	i{
+		color: white;
+	}
+}

@@ -1,0 +1,12 @@
+name : Black Marmalade Records
+brand : Black Marmalade Records
+description : Black Marmalade Records
+keyword : Vinyl Records
+url : http://localhost:4000/
+email : blackmarmaladerecords@gmail.com
+author : Black Marmalade
+analytics : UA-8418273-8
+year : 2017
+markdown : kramdown
+exclude :
+  - node_modules

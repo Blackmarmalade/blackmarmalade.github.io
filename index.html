@@ -1,0 +1,101 @@
+---
+layout: default
+description: This is Black Marmalade. Welcome.
+keywords: vinyl, records, discogs
+---
+
+
+<div class="row">
+<div class="small-12 columns">
+  <div class="orbit">  
+  <ul class="example-orbit" data-orbit data-options="timer_speed:5000; pause_on_hover:false; bullets:false;">
+    <li>
+      <img src="{{site.url}}/img/header.jpg" alt="slide 1" />
+      <!-- <div class="orbit-caption">
+        Caption One.
+      </div> -->
+    </li>
+    <li class="active">
+       <img src="{{site.url}}/img/header.jpg" alt="slide 1" />
+    </li>
+    <li>
+       <img src="{{site.url}}/img/header.jpg" alt="slide 1" />
+    </li>
+  </ul>
+  </div>
+</div>
+<!-- <h1 class="mvl">Whoa! Jekyll, Foundation 5, HTML5 boilerplate and github pages!</h1>-->
+ 
+
+  {% assign url = '{{image}}' %}
+  {% assign linkk = '{{link}}' %}
+   <script type="text/javascript">
+    var userFeed = new Instafeed({
+      get: 'user',
+      userId: '5384364767',
+      accessToken: '5384364767.ba4c844.04b2c1c62a674c89b75eb47892e3258d',
+      limit: '6',
+      resolution: 'low_resolution',
+      template: '<li><div class="imgthumb"><img src="{{url}}" /></div></li>'
+    });
+
+    userFeed.run();
+    </script>
+
+
+
+  <div class="small-12 large-8 columns">
+   <h3 class="font-bold"> <a href="{{site.url}}/news.html">NEWS</a></h3>
+    <ul class="large-block-grid-2 small-block-grid-1">
+     {% for post in site.posts %}
+      {% if post.homepage == true %}
+      <li>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+         {% if post.image %}
+           {% if post.image contains 'http' %}
+            <img class="imgblog" src="{{ post.image }}" alt="{{ post.title }}">
+            {% else%}
+             <img class="imgblog" src="{{site.url}}/img/giradischi/{{ post.image }}" alt="{{ post.title }}">
+            {% endif %}
+         {% else %}
+         {% endif %}
+         <p class="small text-justify"> {{ post.content | strip_html | truncatewords:25}} 
+         <span><a href="{{ post.url }}"><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+         </a></span></p>
+        </li>
+       {% else %}
+       {% endif %}
+     {% endfor %}
+    </ul>
+   <hr>
+   <ul class="large-block-grid-6 small-block-grid-3" id="instafeed"></ul>     
+  </div>
+<!-- 
+  <div class="small-12 large-8 columns">
+    <div id="instafeed"></div>
+  </div> -->
+
+  <div class="small-12 large-4 columns">
+   <h3 class="font-bold"> <a href="{{site.url}}/management.html">MANAGEMENT</a></h3>
+   <ul class="no-bullet">
+    {% for post in site.categories.management %}
+    
+     <li>
+     <hr>
+      <h3>
+       <a href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+       <!-- {% if post.image %}
+       <img class="imgblog" src="{{ post.image }}" alt="{{ post.title }}">
+       {% else %}
+       {% endif %}
+       <p class="small text-justify"> {{ post.content | strip_html | truncatewords:25}} 
+       <span><a href="{{ post.url }}"><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+       </a></span></p> -->
+     </li>
+
+    {% endfor %}
+   </ul>
+  </div>
+
+</div>
