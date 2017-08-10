@@ -1,11 +1,11 @@
 name : Black Marmalade Records
 brand : Black Marmalade Records
-description : Black Marmalade Records
+description : Black Marmalade Records Novità & rarità in vinile e cd, nuovo e usato.
 keyword : Vinyl Records
-url : http://localhost:4000/
+url : www.blackmarmaladerecords.com
 email : blackmarmaladerecords@gmail.com
 author : Black Marmalade
-analytics : UA-8418273-8
+analytics : 
 year : 2017
 markdown : kramdown
 exclude :
