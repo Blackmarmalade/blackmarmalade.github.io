@@ -5,7 +5,7 @@ date: 2017-05-01 20:07:22
 categories: news
 homepage: true
 published: true
-image: https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/18342744_1894966974083076_4397758348241798584_n.jpg?oh=449cb593baa2e4343ad1aca22e198d53&oe=59AA7699
+image:
 ---
 
 ## Dischi, cd, libri & gadget
