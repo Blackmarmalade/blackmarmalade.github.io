@@ -13,7 +13,7 @@ Ivana Gatti non opera solo nell'ambito della scena musicale cosiddetta indie e p
 
 [ivanagatti.it]( http://www.ivanagatti.it/ )\\
 [spotify]((https://open.spotify.com/album/1Z7YTOBvVw9I9NedgGy2mA)\\
-[facebook.com/ivanagattiofficial])https://www.facebook.com/ivanagattiofficial/?pnref=lhc)
+[facebook.com/ivanagattiofficial](https://www.facebook.com/ivanagattiofficial/?pnref=lhc)
 
 
 **Band**

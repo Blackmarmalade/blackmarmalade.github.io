@@ -23,7 +23,8 @@ Dalle dolci colline del Chianti, dopo due dischi con Best Sound/Sony, un lungo t
 **Band**
 
 “MARGOT” MARGHERITA VIENNI (voce) \\
-“K” FRANCESCO BAGGIANI (chitarra) “GiORgIo” MATTEO GIORGETTI (basso) \\
+“K” FRANCESCO BAGGIANI (chitarra) \\
+“GiORgIo” MATTEO GIORGETTI (basso) \\
 “PixIE” DANIELE PALMI (batteria)
 
 **Discografia**

@@ -12,16 +12,18 @@ Dopo l'esordio negli anni zero con la produzione artistica di Toni Armetta (bass
 
 Nel 2016 esce l'album CRONACHE DA UN ASSEDIO. Dodici canzoni, altrettante pagine di un diario di guerra, in cui si narrano le forze che ci assediano ma che dall’assedio ci possono liberare. 
 
-[lipotesidiaspen.com](http://www.lipotesidiaspen.com/)
-[spotify](https://open.spotify.com/artist/0Igs9lwdtMznrCViVctgk9)
-[facebook.com/Lipotesi-di-Aspen](https://www.facebook.com/Lipotesi-di-Aspen-50040421216/)
+[lipotesidiaspen.com](http://www.lipotesidiaspen.com/)\\
+[spotify](https://open.spotify.com/artist/0Igs9lwdtMznrCViVctgk9)\\
+[facebook.com/Lipotesi-di-Aspen](https://www.facebook.com/Lipotesi-di-Aspen-50040421216/)\\
 [twitter.com/ipsaspe](https://twitter.com/ipsaspe)
 
 
 **Band**
 
 MARCELLO RAVESI (voce e chitarra)\\
-GIAMPAOLO BATTAGLIA (batteria) MARCO PESCETELLI (tastiere) DARIO PIMPOLARI (basso) \\
+GIAMPAOLO BATTAGLIA (batteria) \\
+MARCO PESCETELLI (tastiere) DARIO\\
+PIMPOLARI (basso) \\
 
 **Discografia**
 
