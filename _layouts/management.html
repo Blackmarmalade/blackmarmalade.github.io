@@ -2,19 +2,23 @@
 layout: default
 ---
 
-<div class="small-12 columns">
-  <h1 class="text-center title">{{page.title}}</h1>
 
+
+
+<div class="small-12 columns">
+   <h1 class="text-center title">{{page.title}}</h1>
   {% if post.image contains 'http' %}
      <img class="header" src="{{ post.image }}" alt="{{ post.title }}">
   {% else%}
-     <img src="{{site.url}}/img/post/{{page.image}}" class="header" alt="{{page.title}}">
+     <img src="{{site.url}}/img/management/{{page.image}}" class="header" alt="{{page.title}}">
   {% endif %}
-
 </div>
+	
+
 <div class="large-10 small-12 columns">
 	{{ content}}
 </div>
 <div class="large-1 hide-for-small-only columns share">
  	{% include share.html %}
 </div>	
+

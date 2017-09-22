@@ -89,21 +89,8 @@
         </aside>
 
 
-        <div class="row">
-          <section role="main">
-            <div class="small-12 columns">
-
-            {% if page.title == "Black Marmalade Records" %}
-            <!-- do nothing -->
-             {% else %}
-              <h1 class="text-center">{{page.title}}</h1>
-            {% endif %}
-            <br>
-        
-              {{ content }} 
-           
-            </div>
-          </section>
+        <div class="row maindiv">
+         {{ content }} 
         </div>
         
 
@@ -114,7 +101,7 @@
                 {% include nav.html %}
             </ul>
             <div class="footer-bottom">
-                <p class="quiet copyright right">
+                <p class="quiet copyright">
                 <i class="fa fa-phone" aria-hidden="true"></i>0721 324234 - 
                 <a href="mailto:{{ site.email }}"><i class="fa fa-envelope" aria-hidden="true"></i>{{ site.email }}</a> - 
                 <i class="fa fa-copyright" aria-hidden="true"></i>{{ site.year }}

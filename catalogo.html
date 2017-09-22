@@ -4,31 +4,39 @@ title: Catalogo
 description: Catalogo dischi
 ---
 
-<div class="hide-for-small-only">
-    <ul class="small-block-grid-4">
-        <li><strong>Artists</strong></li>
-        <li ><strong>Title</strong></li>
-        <li class="text-center"><strong>Released</strong></li>
-        <li><strong>Format</strong></li>
+<!-- <div class="small-6 columns">
+    <ul class="no-bullet">
+        {% for artists in site.data.discog %}
+         <li>
+           <p>{{artists.artist}} - {{tiles}}</p>
+         </li>
+        {% endfor %}
     </ul>
+</div> -->
+<div class="small-12 columns">
+    <div class="hide-for-small-only">
+        <ul class="small-block-grid-3">
+            <li><strong>Artists</strong></li>
+            <li ><strong>Title</strong></li>
+            <li><strong>Format</strong></li>
+        </ul>
     <hr>
-    {% for discog in site.data.discogs  %}
-      <ul class="small-block-grid-4 ">
-        <li>{{ discog.Artist }}</li>
-        <li><em>{{ discog.Title }}</em></li>
-        <li class="text-center"><em>{% if discog.Released == "0" %} x {% else %} {{ discog.Released }} {% endif %}</em></li>
-        <li><small>{{ discog.Format}}</small></li>
-      </ul>
+     {% for discog in site.data.discogs  %}
+          <ul class="small-block-grid-3">
+            <li>{{ discog.artist }}</li>
+            <li><em>{{ discog.title }}</em></li>
+            <li><small>{{ discog.format}}</small></li>
+          </ul>
     {% endfor %}
-</div>
-<div class="show-for-small-only">
- <ul class="no-bullet">
-    {% for discog in site.data.discogs  %}
-        <li><strong>Artist:</strong> {{ discog.Artist }}</li>
-        <li><strong>Title:</strong><em> {{ discog.Title }}</em></li>
-        <li><strong>Released:</strong> <em> {% if discog.Released == "0" %} x {% else %} {{ discog.Released }} {% endif %}</em></li>
-        <li><strong>Format:</strong> {{ discog.Format}}</li>
-      <hr>
-    {% endfor %}
-  </ul>  
+    </div>
+    <div class="show-for-small-only">
+     <ul class="no-bullet">
+        {% for discog in site.data.discogs  %}
+            <li><strong>Artist:</strong> {{ discog.artist }}</li>
+            <li><strong>Title:</strong><em> {{ discog.title }}</em></li>
+            <li><strong>Format:</strong> {{ discog.format}}</li>
+          <hr>
+        {% endfor %}
+      </ul>  
+    </div>
 </div>

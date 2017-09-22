@@ -5,7 +5,7 @@ date: 2017-05-01 20:07:22
 categories: news
 homepage: true
 published: true
-image:
+image: nextopening.jpg
 ---
 
 ## Dischi, cd, libri & gadget

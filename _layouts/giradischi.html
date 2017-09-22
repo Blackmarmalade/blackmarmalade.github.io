@@ -1,25 +1,34 @@
 ---
 layout: default
 ---
+<div class="small-12 columns">
 
+    <h1 class="text-center title">{{page.title}}</h1>
 
-<div class="columns">
-<div class="row">
 	<div class="large-10 medium-8 small-12 columns">
 		<ul class="clearing-thumbs small-block-grid-1" data-clearing >
-         <li><img src="{{site.url}}/img/giradischi/{{page.image}}" class="header" alt="{{page.title}}"></li>
+		  {% if post.image contains 'http' %}
+             <li><img src="{{ page.image }}" alt="{{  page.title }}"></li>
+          {% else%}
+             <li><img src="{{site.url}}/img/giradischi/{{page.image}}" class="header" alt="{{page.title}}"></li>
+          {% endif %}
         </ul> 
 	</div>
 	<div class="large-2 medium-4 small-12 columns">
 		<ul class="clearing-thumbs  small-block-grid-1" data-clearing >
 	     {% for item in page.imagethumb %}
-	         <li><img src="{{site.url}}/img/giradischi/{{ item.link }}" alt="{{link}}"/></li>
+	     	 {% if post.image contains 'http' %}
+		     <img src="{{ item.link }}" alt="{{ link }}">
+		 	 {% else%}
+		      <li><img src="{{site.url}}/img/giradischi/{{ item.link }}" alt="{{link}}"/></li>
+		 	 {% endif %}
 	     {% endfor %}
         </ul> 
 	</div>
 </div>
-<h3><strong>marca:</strong> {{page.marca}} </h3>
-<h3><strong>modello:</strong> {{page.modello}}</h3>
-<h3><strong>prezzo:</strong> {{page.prezzo}} €</h3><br>
+<div class="small-12 columns">
+	<h3><strong>marca:</strong> {{page.marca}} </h3>
+	<h3><strong>modello:</strong> {{page.modello}}</h3>
+	<h3><strong>prezzo:</strong> {{page.prezzo}} €</h3><br>
 	{{ content}}
 </div>
