@@ -1,17 +1,16 @@
 ---
 layout: giradischi
 categories: giradischi
-title: giradischi usato 2
+title: Bsr P128
 marca: marca giradischi
 modello: modello giradischi
-prezzo: 100.00
-date: 2017-07-01 20:19:22
+prezzo: 100
+date: 2017-07-01T20:19:22.000Z
 published: true
-image: 2_alto.jpg
+image: bsr_mod1.jpg
 imagethumb:
-  - link: 2_fronte.jpg
-  - link: 2_lato.jpg
-
+  - link: bsr_mod2.jpg
+  - link: bsr_mod3.jpg
 ---
 
 descrizione giradischi

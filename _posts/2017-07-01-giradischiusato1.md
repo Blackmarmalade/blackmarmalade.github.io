@@ -1,17 +1,16 @@
 ---
 layout: giradischi
 categories: giradischi
-title: giradischi usato 1
+title: Noiz Log 5000
 marca: marca giradischi
 modello: modello giradischi
-prezzo: 100.00
-date: 2017-07-01 20:20:22
+prezzo: 130
+date: 2017-07-01T20:20:22.000Z
 published: true
-image: 1_alto.jpg
+image: noiz_mod1.jpg
 imagethumb:
-  - link: 1_fronte.jpg
-  - link: 1_lato.jpg
-
+  - link: noiz_mod2.jpg
+  - link: noiz_mod3.jpg
 ---
 
 descrizione giradischi
