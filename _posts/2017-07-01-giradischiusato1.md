@@ -2,6 +2,7 @@
 layout: giradischi
 categories: giradischi
 title: Noiz Log 5000
+sottotitolo: Noiz Log 5000
 marca: marca giradischi
 modello: modello giradischi
 prezzo: 130

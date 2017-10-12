@@ -1,0 +1,16 @@
+---
+published: true
+layout: giradischi
+categories: giradischi
+marca: marca giradischi
+modello: modello giradischi
+prezzo: 100
+date: {}
+image: jvccd_mod1.jpg
+imagethumb:
+  - link: jvccd_mod2.jpg
+  - link: jvccd_mod3.jpg
+---
+## A New Post
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.

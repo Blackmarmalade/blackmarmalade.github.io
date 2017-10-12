@@ -38,9 +38,9 @@ keywords: vinyl, records, discogs
       get: 'user',
       userId: '5384364767',
       accessToken: '5384364767.ba4c844.04b2c1c62a674c89b75eb47892e3258d',
-      limit: '6',
+      limit: '8',
       resolution: 'low_resolution',
-      template: '<li><div class="imgthumb"><img src="{{url}}" /></div></li>'
+      template: '<li><div class="imgthumb"><a href="{{linkk}}"><img src="{{url}}" /></a></div></li>'
     });
 
     userFeed.run();
@@ -84,7 +84,7 @@ keywords: vinyl, records, discogs
      {% endfor %}
     </ul>
    <hr>
-   <ul class="large-block-grid-6 small-block-grid-3" id="instafeed"></ul>     
+   <ul class="large-block-grid-4 small-block-grid-2" id="instafeed"></ul>     
   </div>
 <!-- 
   <div class="small-12 large-8 columns">

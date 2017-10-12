@@ -1,15 +1,13 @@
 ---
+published: false
 layout: giradischi
 categories: giradischi
-title: Arcam Delta 90
 marca: marca giradischi
 modello: modello giradischi
 prezzo: 230
-date: 2017-07-01T20:13:22.000Z
-published: true
-image: arcam_mod1.jpg
+date: 2017-07-01T20:13:21.000Z
+image: telefunken_mod1.jpg
 imagethumb:
-  - link: arcam_mod2.jpg
+  - link: telefunken_mod2.jpg
 ---
-
 descrizione giradischi
