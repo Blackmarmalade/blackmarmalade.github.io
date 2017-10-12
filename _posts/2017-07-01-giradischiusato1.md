@@ -2,9 +2,9 @@
 layout: giradischi
 categories: giradischi
 title: Noiz Log 5000
-sottotitolo: Noiz Log 5000
-marca: marca giradischi
-modello: modello giradischi
+sottotitolo: Giradischi con trazione a cinghia
+marca: Noiz
+modello: Log 5000
 prezzo: 130
 date: 2017-07-01T20:20:22.000Z
 published: true
@@ -13,5 +13,22 @@ imagethumb:
   - link: noiz_mod2.jpg
   - link: noiz_mod3.jpg
 ---
+Il LOG 5000 è un giradischi con trazione a cinghia di elevate prestazioni con braccio di lettura a S a bilanciamento statico, piedini d'appoggio sovradimensionati e antivibrazione.
 
-descrizione giradischi
+Caratteristiche generali:
+• Led bicolore per il controllo della velocità.
+• Stroboscopio per 33,3 e 45 giri/min.
+• Presa auto-start (comando impulsivo).
+• Arresto istantaneo.
+• Taratura fine delle velocità, per 33,3 e 45 giri/min.
+• Presa XLR per flessibile luminoso.
+• Piatto in alluminio pesante con rivestimento antigraffio.
+• Skipmat in fibra di carbonio.
+• Chassis pesante.
+• Testina Audiotechnica AT 91 in dotazione.
+• Alzabraccio a discesa frenata.
+• Antiskating regolabile.
+• Braccio di lettura a "S" antivibrazioni.
+• Porta testina intercambiabile.
+• Lampada d'illuminazione della puntina.
+• Variazione della velocità con slider lineare.
