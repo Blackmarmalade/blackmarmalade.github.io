@@ -5,7 +5,7 @@ categories: giradischi
 marca: Telefunken
 modello: TA 350-B
 prezzo: 100
-date: 2017-07-01T20:14:22.000Z
+date: 2017-10-12T20:14:22.000Z
 image: telefunken_mod1.jpg
 imagethumb:
   - link: telefunken_mod2.jpg
