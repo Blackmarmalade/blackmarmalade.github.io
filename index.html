@@ -67,9 +67,7 @@ published: true
         </li>
      {% endfor %}
       
-    </ul>
-   <hr>
-   <ul class="large-block-grid-4 small-block-grid-2" id="instafeed"></ul>     
+    </ul>    
   </div>
 <!-- 
   <div class="small-12 large-8 columns">
@@ -105,7 +103,6 @@ published: true
     {% for post in site.categories.management %} 
      {% if post.homepage == true %}
      <li>
-     <hr>
       <h3>
        <a href="{{ post.url }}">{{ post.title }}</a>
       </h3>
@@ -124,5 +121,9 @@ published: true
     {% endfor %}
    </ul>
   </div>
-</div>
+  
+  <hr>
+   <ul class="large-block-grid-4 small-block-grid-2" id="instafeed"></ul> 
+
+  </div>
 </div>
