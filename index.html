@@ -2,7 +2,8 @@
 layout: default
 title: Black Marmalade Records
 description: This is Black Marmalade. Welcome.
-keywords: vinyl, records, discogs
+keywords: 'vinyl, records, discogs'
+published: true
 ---
 
 
@@ -77,10 +78,11 @@ keywords: vinyl, records, discogs
             {% endif %}
          {% else %}
          {% endif %}
-         <p class="small text-justify"> {{ post.content | strip_html | truncatewords:25}}</p>
+         <p> {{ post.prezzo}} €</p>
+         <p> {{ post.sottotitolo}} €</p>
       </li>
       {% else %}
-      {% endif %}
+      {% edif %}
      {% endfor %}
     </ul>
    <hr>
