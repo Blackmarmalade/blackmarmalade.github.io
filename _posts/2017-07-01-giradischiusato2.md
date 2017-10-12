@@ -11,7 +11,7 @@ image: bsr_mod1.jpg
 imagethumb:
   - link: bsr_mod2.jpg
   - link: bsr_mod3.jpg
-sottotitolo: prova
+sottotitolo: Giradischi automatico vintage anni 70 con trazione a puleggia
 ---
-
-descrizione giradischi
+Giradischi automatico vintage anni '70 con trazione a puleggia.
+4 velocità: 16/33/45/78
