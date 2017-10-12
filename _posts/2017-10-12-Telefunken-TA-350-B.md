@@ -5,7 +5,7 @@ categories: giradischi
 marca: marca giradischi
 modello: modello giradischi
 prezzo: 230
-date: 2017-07-12T20:13:21.000Z
+date: 2017-07-12T20:13:22.000Z
 image: telefunken_mod1.jpg
 imagethumb:
   - link: telefunken_mod2.jpg
