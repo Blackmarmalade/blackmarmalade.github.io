@@ -1,17 +1,27 @@
 ---
 layout: giradischi
 categories: giradischi
-title: Bsr P128
-marca: Bsr
-modello: P128
-prezzo: 100
+title: Cec Bd 3200
+marca: Cec
+modello: Bd 3200
+prezzo: 150
 date: 2017-07-01T20:19:22.000Z
 published: true
-image: bsr_mod1.jpg
+image: cec_mod1.jpg
 imagethumb:
-  - link: bsr_mod2.jpg
-  - link: bsr_mod3.jpg
-sottotitolo: Giradischi automatico vintage anni 70 con trazione a puleggia
+  - link: cec_mod2.jpg
+  - link: cec_mod3.jpg
+sottotitolo: Giradischi giapponese con trazione a cinghia
 ---
-Giradischi automatico vintage anni '70 con trazione a puleggia.
-4 velocità: 16/33/45/78
+Giradischi Cec Bd 3200 Made In Japan
+
+Metodo di azionamento: cinghia
+Motore: sincrono a 4 poli
+Vassoio: lega di alluminio di 300mm
+Velocità: 33 e 45 giri 
+Rapporto segnale / rumore: 62dB
+Tonoarm: tipo staticamente bilanciato
+Lunghezza effettiva: 215 mm
+Sporgenza: 15 mm
+Dimensioni: 139 x 456 x 335 mm
+Peso: 7.3kg
