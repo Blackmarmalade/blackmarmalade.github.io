@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: giradischi
 categories: giradischi
 marca: B&W
