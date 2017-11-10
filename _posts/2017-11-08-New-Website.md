@@ -6,4 +6,4 @@ categories: news
 homepage: true
 image: sito.png
 ---
-![]({{site.baseurl}}/http://i68.tinypic.com/24qu0cy.png)
+![]({{site.baseurl}}/http://i65.tinypic.com/219dzsn.png)
