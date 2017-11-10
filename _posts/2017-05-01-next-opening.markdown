@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Next Opening
-date: 2017-05-01 20:07:22
+date: 2017-05-01T20:07:22.000Z
 categories: news
-homepage: true
+homepage: false
 published: true
 image: nextopening.jpg
 ---
