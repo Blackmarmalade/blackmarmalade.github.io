@@ -6,7 +6,7 @@ marca: Cec
 modello: Bd 3200
 prezzo: 150
 date: 2017-07-01T20:19:22.000Z
-published: true
+published: false
 image: cec_mod1.jpg
 imagethumb:
   - link: cec_mod2.jpg
