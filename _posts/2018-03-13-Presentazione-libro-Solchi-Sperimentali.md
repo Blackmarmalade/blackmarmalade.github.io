@@ -17,4 +17,6 @@ Ingresso gratuito
 
 Crac Edizioni
 
+Evento facebook: https://goo.gl/1VFYTw
+
 ![]({{site.baseurl}}/http://i64.tinypic.com/29fxzt0.jpg)
