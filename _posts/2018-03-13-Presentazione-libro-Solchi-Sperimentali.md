@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 date: 2018-03-13T09:00:23.000Z
 categories: news
@@ -18,4 +18,3 @@ Ingresso gratuito
 Crac Edizioni
 
 ![]({{site.baseurl}}/http://i64.tinypic.com/29fxzt0.jpg)
-
